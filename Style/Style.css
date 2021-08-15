@@ -1,0 +1,65 @@
+body{
+    margin: 120px 75px;
+    background: #f8eff7;
+}
+.header ul{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+}
+.fa {
+    color: #009ee3;
+    font-size: 20px;
+}
+.header ul li{
+    padding-right: 40px;
+    font-weight: bolder;
+}
+.row h2{
+    color: #009ee3;
+}
+.row hr{
+   border-top:4px solid #009ee3;
+   margin-top: 0px;
+}
+.Education ul{
+    list-style-type: none;
+    padding-left: 5px;
+}
+.Education ul li{
+    display: flex;
+}
+.Education h6{
+    padding-left: 5px;
+    margin-bottom: 3px;
+}
+.clg-nm{
+    padding-left: 25px !important;
+}
+.row{
+padding-top: 30px;
+padding-bottom: 100px;
+}
+.achieve{
+    display: flex;
+}
+h6{
+    padding-left: 5px;
+}
+button{
+    /*border-radius: 20%;
+    border: 2px solid #000;
+    margin:8px 15px 8px 0px;*/
+        border-radius: 9px;
+    border: 1.2px solid #000;
+    padding: 2px 10px;
+    margin: 8px 15px 8px 0px;
+    background-color: #fff;
+}
+
+.flex{
+    display: flex;  
+}
+.colorlink{
+    color: #009ee3;
+}

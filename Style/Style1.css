@@ -1,0 +1,595 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    }
+    .home-banner img{
+        height: 55px;
+        width: 200px;
+    }
+    .home-banner .navbar-expand-lg .navbar-nav .nav-link{
+        color: #fefefe;
+        padding:0.1rem 1rem;
+    }
+    .home-banner .navbar-expand-lg li.active a{
+        color: #f38181;
+        border-bottom: 2px solid #f38181 ;
+    }
+    .home-banner .col-md-4,.home-banner .banner-text{
+        text-align: center;
+    }
+    .home-banner{
+        background-image:url("/Images/Home-banner.jpg");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+    .banner-text{
+          padding: 60px 0px;
+      }
+      .carousel{
+        height: 315px;
+    }
+    .banner-text h1 {
+        color: #fff;
+        font-family: 'Kaushan Script', cursive;
+        padding: 15px 0px;
+        font-size: 50px;
+    }
+    .banner-text hr {
+        border-bottom: 3px solid #fff;
+        width: 120px;
+    }
+    .banner-text h2 {
+        color: #fff;
+        font-weight: 600;
+        padding: 30px 0px;
+    }
+     .banner-text button {
+        border: 2px solid #fff;
+        font-size: 20px;
+        padding: 5px 40px;
+        color: #fff;
+        background: none;
+        cursor: pointer;
+        font-weight: bolder;
+    }
+    .home-banner .row{
+          padding: 10px 0px;
+    }
+    .Home-Intro-text .container{
+        text-align: center;
+        padding: 60px 130px;
+    }
+    hr{
+        border-bottom: 3px solid #f38181;
+        width: 100px;
+    }
+    .Home-Intro-text h3{
+        color: #000;
+        font-family: 'Kaushan Script', cursive;
+        padding: 15px 0px;
+    }
+    .Home-Intro-text h5{
+        font-weight: bolder;
+        color: #000;
+    }
+    .Home-Intro-text p{
+        font-size: 15px;
+        padding: 15px 140px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+     }
+     .Home-Intro-text img{
+       width: 280px;
+       height: 220px;
+       padding-top: 50px;
+     }
+    .Progress{
+     background:#585657;
+     color:#fff;
+     text-align: center;
+    }
+    .Progress .container{
+     padding: 0px 60px;
+    }
+    
+    .Progress .col-md-2{
+     border-right: 1px solid #fff;
+     padding: 50px 10px;
+    }
+    .Progress .offset-md-1{
+    border-left: 1px solid #fff;
+    }
+    .Progress p{
+        font-size: 14px;
+    }
+     .home-cards h4 {
+         font-family: 'Kaushan Script', cursive;
+         font-size: 26px;
+     }
+     .home-cards h5 {
+        font-weight: bolder;
+        font-size: 17px;
+    }
+     .home-cards-first
+     {border-bottom: 1px solid #e5e5e5;}
+     .home-cards .card{
+         border: none;
+         /* height: 120px; */
+     }
+     .card-horizontal {
+        display: flex;
+        flex: 1 1 auto;
+    }
+     .home-cards h6 {
+        font-weight: bolder;
+        text-align: left;
+        font-size: 14px;
+    }
+    .home-cards p {
+        font-size: 14px;
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+    }
+    .home-cards .card-body{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        font-size: 13px;
+        margin: 10px;
+        padding: 3px 7px;
+       }
+     .home-cards{
+         padding: 60px 0px;
+         text-align: center;
+     }
+     .home-cards img{
+         padding-top: 20px;
+     }
+    .unique-design{
+        background-image: url("/Images/All-device.jpg");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        text-align: center;
+        padding: 30px 0px;
+        height: 600px;
+        margin-bottom: 40px;
+    }
+    .unique-design h4{
+        font-family: 'Kaushan Script', cursive;
+    }
+    .unique-design h6{
+       font-weight: bolder;
+    }
+    .unique-design .ipad-img{
+        height: 438px;
+        width: 410px;
+        position: relative;
+        left: 120px;
+        top: 40px;
+    }
+    .unique-design .mob-img {
+        height: 335px;
+        width: 200px;
+        position: relative;
+        left: 30px;
+        top: 140px;
+    }
+     .Why-choose .container{
+         text-align: center;
+         padding: 30px 150px;
+     }
+     .Why-choose h5{
+     font-family: 'Kaushan Script', cursive;
+     font-size: 26px;
+     }
+     .Why-choose img{
+         width: 400px;
+         height: 300px;
+         padding: 20px 15px;
+     }
+    .Why-choose p{
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+    }
+    .Why-choose .why-us-heding{
+    font-weight: 900;
+    font-size: 16px;
+    }
+     .card-header{
+         background-color: #fff;
+         padding: 5px;
+     }
+     .Why-choose .card-header img{
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+     }
+     .card-header h5{
+     text-align: left;
+     font-family: 'Montserrat', sans-serif;
+     color: #000;
+     font-weight: 400;
+     font-size: 13px;
+     }
+     .card-header .fa{
+       float: right;
+       font-size: 27px;
+     }
+     .card-header a{
+     text-decoration: none;
+      }
+    .md-accordion .card .card-header a:not(.collapsed) .rotate-icon {
+        transform: rotate(180deg);
+    }
+     .Why-choose h6{
+        font-weight: bolder;
+     }
+     .Why-choose .card-body{
+     height: 100px;
+     overflow-y: auto;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 900;
+     font-size: 14px;
+     margin: 10px;
+     padding: 3px 7px;
+    }
+    .card-body::-webkit-scrollbar {width: 4px; height: 2px; background: #ffffff;}
+    .card-body::-webkit-scrollbar-thumb { background-color: #26a5d8;}
+    .card-body::-webkit-scrollbar-track { background-color: #e5e5e5;}
+    .review{
+        background: #f8f8f8;
+        padding: 30px;
+    }
+    .review {
+    background-color: #f8f8f8;
+    padding: 60px 180px;
+    }
+    .review .fa{
+        font-size: 30px;
+        padding-top: 60px;
+    }
+    .review p{
+        font-size: 17px;
+       font-style: italic;
+       padding: 10px 0px;
+       margin-bottom: 0px;
+       text-align: left;
+    }
+    .review h6 {
+        display: flex;
+        font-family: 'Kaushan Script', cursive;
+    }
+    .review h6 span {
+     width: 60px;
+     border-bottom:2px solid #f38181;
+    }
+    .client-review {
+    background-color: #fff;
+    text-align: center;
+    }
+    .client-review .row{
+        border: 1px solid #f8f8f8;
+        box-shadow: 5px 5px 5px 5px #f8f8f8;
+        padding: 10px 0px;
+        margin-top: 40px;
+    }
+    .client-review h4{
+        font-family: 'Kaushan Script', cursive;
+        font-size: 26px;
+        }
+    .client-review h5{
+        font-size: 16px;
+        font-weight: bolder;
+        }
+    .client-review img {
+        width: 115px;
+        height: 115px;
+        border-radius: 50%;
+    }
+    .client-review .fa{
+        padding-top: 40px;
+    }
+    .client-img{
+        padding-top: 20px;
+    }
+    .client-img-burr{
+        padding-top: 50px;
+    }
+    .our-clients{
+        background-color: #f8f8f8;
+        padding: 30px 200px;
+        text-align: center;
+    }
+    .our-clients h4{
+        text-align: center;
+        font-family: 'Kaushan Script', cursive;
+    }
+    .home-map{
+        background-image: url("/Images/home-map.png");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding:50px 0px;
+        text-align: center;
+    }
+    .home-map h3{
+     font-weight: bolder;
+     color: #f38181;
+    }
+    .home-map .fa{
+        color: #f38181;
+        font-size: 40px;
+     }
+     .contact-us{
+        background-image: url("/Images/contactus.jpg");
+        height: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding:50px 0px;
+        text-align: center;
+     }
+     .contact-us h4{
+        font-family: 'Kaushan Script', cursive;
+     }
+     .contact-us h5{
+          font-weight: 900;
+    }
+    .contact-us form{
+        padding: 20px 240px;
+    }
+    .contact-us .form-group{
+        margin-bottom: 2rem;
+    }
+    .contact-us button{
+        background: #585657;
+        color: #fff;
+        font-weight: 900;
+        width: 200px;
+        font-size: 20px;
+        border: none;
+        height: 40px;}
+    .contact-us .form-control{
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-style: italic;
+        padding: 10px 30px;
+    }
+    .contact-us .high{
+        height: 60px;
+    }
+    .home-footer{
+        padding: 50px 0px;
+    }
+    .home-footer h6{
+        text-align: center;
+        font-weight: bolder;
+    }
+    .home-footer .followus{
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        font-size: 13px;
+        padding: 5px;
+    }
+    .top-header-first-wrapper ul{
+        list-style-type: none;
+        display: flex;
+        margin-bottom: 0px;
+        justify-content: center;
+        padding-left: 0px;
+        border-top: 1px solid #f2f2f2;
+    }
+    .top-header-first-wrapper .fa{
+        padding: 8px 4px;
+        color: #26a6d9;
+        font-size: 13px;
+    }
+    .home-footer .heading h5{
+        text-align: center;
+        margin-bottom: 1rem;
+        font-family: 'Kaushan Script', cursive;
+    }
+    .footer-links a ,.home-footer p{
+        text-align: center;
+        font-size: 13px;
+        color: #000;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    /* .home-footer p{
+        margin-bottom: 0px;
+    } */
+    .footer-quick{
+        padding: 0px 90px;
+    }
+    .footer-links{
+        list-style-type: none;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .copyright{
+    padding: 0px 200px;}
+    .copyright .container{
+        border-top: 1px solid #f2f2f2;
+        display: flex;
+        justify-content: center;
+        padding: 15px 0px;
+    }
+    .copyright p{
+        color: #4da0c6;
+        font-size: 11px;
+        margin-bottom: 0px;
+    }
+    .copyright .simpli{
+        color: #f38181;
+        margin-bottom: 0px;
+        font-size: 11px;
+    }
+    .map-link a{
+        text-decoration: none;
+    }
+    @media (min-width: 992px) and (max-width: 1199.98px) {    
+    .Why-choose img {
+        width: 340px;
+    }
+    .Home-Intro-text img {
+        width: 220px;
+    }
+    .our-clients {
+        padding: 30px 80px;
+    }
+    .home-banner .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0.1rem 0.5rem;
+    }
+    }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+    .home-banner .navbar-toggler img{
+        width: 40px;
+        height: 30px;
+    }
+    .navbar-toggler {
+         padding: 0px;
+         border: none;
+        }
+    .Home-Intro-text p {
+    padding: 0px;
+    }
+    .Home-Intro-text img {
+        width: 150px;
+        height: 170px;
+    }
+    .navbar-collapse {
+        margin-left: 66%;
+    }
+    .Why-choose img {
+        width: 280px;
+        height: 260px;
+    }
+    .Why-choose .container {
+        padding: 30px 88px;
+    }
+    .our-clients {
+        padding: 30px 60px;
+    }
+    .our-clients img {
+        width: 140px;
+    }
+    .review {
+        padding: 60px 30px;
+    }
+    .contact-us form {
+        padding: 20px 80px;
+    }
+    .footer-quick {
+        padding: 0px;
+    }
+    .copyright {
+        padding: 0px 120px;
+    }
+    }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+    .home-banner .navbar-toggler img{
+        width: 40px;
+        height: 30px;
+    } 
+    .navbar-collapse {
+        margin-left: 66%;
+    }   
+    .Home-Intro-text .container {
+        padding: 0px;
+    }
+    .Progress .container {
+        padding: 0px;
+    }
+    .unique-design .mob-img {
+        position: absolute;
+        left: 410px;
+        top: 315px;
+    }
+    .unique-design .ipad-img {
+        position: relative;
+        left: 0px;
+    }
+    .Why-choose .container {
+        padding: 30px 60px;
+    }
+    .copyright {
+        padding: 0px 60px;
+    }
+    .contact-us form {
+        padding: 20px 100px;
+    }
+    .review {
+        padding: 60px;
+    }
+     }
+     @media (min-width: 320px) and (max-width:576px){
+    .home-banner .navbar-toggler img{
+        width: 40px;
+        height: 30px;
+    } 
+    .unique-design .ipad-img {
+        height: 330px;
+        width: 180px;
+        position: absolute;
+        top: 134px;
+        left: 60px;
+    }
+    .navbar-collapse {
+        margin-left: 66%;
+    }   
+    .Home-Intro-text .container {
+        padding: 60px 0px;
+    }
+    .Home-Intro-text p {
+        padding: 15px 60px;
+    }
+    .Progress .col-md-2 {
+        border-left: 1px solid #fff;
+    }
+    .unique-design .mob-img {
+        height: 250px;
+        width: 141px;
+        position: relative;
+        left: 50px;
+        top: 130px;
+    }
+    .Why-choose .container {
+        padding: 30px;
+    }
+    .Why-choose img {
+        width: 300px;
+    }
+    .unique-design {
+        height: 465px;
+    }
+    .our-clients {
+        padding: 30px;
+    }
+    .review {
+        padding: 30px;
+    }
+    .client-review .fa {
+    display: none;
+    }
+    .contact-us form {
+        padding: 20px;
+    }
+    .copyright {
+        padding: 0px 30px;
+    }
+    .copyright .container {
+        display: block;
+    }
+    .copyright p {
+        TEXT-ALIGN: center;
+     }
+    }
